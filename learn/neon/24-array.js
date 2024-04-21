@@ -379,3 +379,11 @@ console.log(result);
 
 result = `<ul>${result}</ul>`;
 console.log(result);
+
+
+let products1 = ['html', 'css', 'js'];
+// result = products1.map(function(item, i) {
+//     return  {i: item};
+// });
+result = products1.map((item, i) => ({i: item}));
+console.log(result);
